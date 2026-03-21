@@ -1,19 +1,75 @@
 <!doctype html>
 <html lang="en">
+  <!-- HEAD -->
   <head>
-    <!-- Base href для власного домена -->
+  <!-- Base href для власного домена -->
 <!-- <base href="/" /> -->
 <!-- Base href for GitHub Pages -->
 <base href="/aze-shooting/" />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacts</title>
-    <script type="module" crossorigin src="/aze-shooting/assets/contacts-B6WApvRp.js"></script>
-    <link rel="modulepreload" crossorigin href="/aze-shooting/assets/main-D763oX8u.js">
-    <link rel="stylesheet" crossorigin href="/aze-shooting/assets/main-DHKA0ZNP.css">
-  </head>
-  <body>
+
+  <!-- Charset -->
+  <meta charset="UTF-8" />
+
+  <!-- Viewport для мобільних пристроїв -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+  <!-- Page Title -->
+  <title>Contacts | Azerbaijan Shooting Federation</title>
+
+  <!-- SEO Meta tags -->
+  <meta
+    name="description"
+    content="Azerbaijan Shooting Federation contacts: address, phone, email. Reach out for competitions, athlete information, and cooperation."
+  />
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Contacts | Azerbaijan Shooting Federation" />
+  <meta
+    property="og:description"
+    content="Azerbaijan Shooting Federation contacts: address, phone, email. Reach out for competitions, athlete information, and cooperation."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://doriandevois.github.io/aze-shooting/contacts/" />
+  <meta property="og:image" content="assets/images/social/social-preview-1200x630.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Contacts | Azerbaijan Shooting Federation" />
+  <meta
+    name="twitter:description"
+    content="Azerbaijan Shooting Federation contacts: address, phone, email. Reach out for competitions, athlete information, and cooperation."
+  />
+  <meta name="twitter:image" content="assets/images/social/social-preview-1200x630.jpg" />
+
+  <!-- ================================ Static Data ================================ -->
+  <!-- FAVICONS -->
+  <!-- Класичний .ico для старих браузерів -->
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
+  <!-- Основний favicon для десктопних браузерів -->
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+  <!-- Apple iOS -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+
+  <!-- Android / Chrome PWA / Дублювання в manifest.json -->
+  <!-- <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/android-chrome-192x192.png" /> -->
+  <!-- PWA: універсальний режим -->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <!-- PWA: iOS підтримка -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="ASF - Azerbaijan Shooting Federation" />
+  <meta name="theme-color" content="#0b1c2d" />
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json" />
+  <script type="module" crossorigin src="/aze-shooting/assets/main-x11t3cBO.js"></script>
+  <link rel="stylesheet" crossorigin href="/aze-shooting/assets/main-DHKA0ZNP.css">
+</head>
+
+  <body class="page-contacts" data-page="contacts">
+    <!-- Page Header -->
     <header class="page-header">
   <div class="page-header__container container">
     <!-- Site Navigation -->
@@ -22,7 +78,7 @@
       <!-- Site Logo -->
 <a class="logo page-header__logo" href="" aria-label="Shooting Sports Home">
   <svg class="logo__image" width="48" height="48">
-    <use href="assets/icons/sprite-new.svg#logo-asf"></use>
+    <use href="assets/icons/sprite.svg#icon-logo-asf"></use>
   </svg>
   <span class="logo__text">Shooting<br />Sports</span>
 </a>
@@ -40,7 +96,7 @@
     aria-controls="mobile-menu-container"
   >
     <svg class="mobile-menu__toggle-icon" width="32" height="32" aria-hidden="true">
-      <use href="assets/icons/sprite-new.svg#burger"></use>
+      <use href="assets/icons/sprite.svg#icon-ui-burger"></use>
     </svg>
   </button>
 
@@ -51,7 +107,7 @@
       <!-- Site Logo -->
 <a class="logo {=$add-class}" href="" aria-label="Shooting Sports Home">
   <svg class="logo__image" width="48" height="48">
-    <use href="assets/icons/sprite-new.svg#logo-asf"></use>
+    <use href="assets/icons/sprite.svg#icon-logo-asf"></use>
   </svg>
   <span class="logo__text">Shooting<br />Sports</span>
 </a>
@@ -60,7 +116,7 @@
       <!-- Mobile Menu Toggle (Close Button) -->
       <button class="js-close-mobile-menu mobile-menu__toggle" type="button" aria-label="Close mobile menu">
         <svg class="mobile-menu__toggle-icon" width="32" height="32" aria-hidden="true">
-          <use href="assets/icons/sprite-new.svg#close"></use>
+          <use href="assets/icons/sprite.svg#icon-ui-close"></use>
         </svg>
       </button>
     </div>
@@ -94,7 +150,7 @@
         <li>
           <a class="mobile-contacts__link mobile-contacts__link--accent" href="tel:+994124937060">
             <svg class="mobile-contacts__icon" width="24" height="24">
-              <use href="assets/icons/sprite-new.svg#mobile"></use>
+              <use href="assets/icons/sprite.svg#icon-ui-mobile"></use>
             </svg>
             <span>(+994) 12 493 70 60</span>
           </a>
@@ -102,7 +158,7 @@
         <li>
           <a class="mobile-contacts__link" href="mailto:info@aze-shooting.org">
             <svg class="mobile-contacts__icon" width="24" height="24">
-              <use href="assets/icons/sprite-new.svg#email"></use>
+              <use href="assets/icons/sprite.svg#icon-ui-email"></use>
             </svg>
             <span>info@aze-shooting.org</span>
           </a>
@@ -169,7 +225,7 @@
   <li>
     <a class="site-contacts__link" href="tel:+994124937060">
       <svg class="site-contacts__icon" width="16" height="16">
-        <use href="assets/icons/sprite-new.svg#mobile"></use>
+        <use href="assets/icons/sprite.svg#icon-ui-mobile"></use>
       </svg>
       <span>(+994) 12 493 70 60</span>
     </a>
@@ -177,7 +233,7 @@
   <li>
     <a class="site-contacts__link" href="mailto:info@aze-shooting.org">
       <svg class="site-contacts__icon" width="16" height="16">
-        <use href="assets/icons/sprite-new.svg#email"></use>
+        <use href="assets/icons/sprite.svg#icon-ui-email"></use>
       </svg>
       <span>info@aze-shooting.org</span>
     </a>
