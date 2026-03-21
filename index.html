@@ -2,6 +2,12 @@
 <html lang="en">
   <!-- HEAD -->
   <head>
+  <!-- Base href для власного домена -->
+<!-- <base href="/" /> -->
+<!-- Base href for GitHub Pages -->
+<base href="/shooting-sports/" />
+
+
   <!-- Charset -->
   <meta charset="UTF-8" />
 
@@ -25,7 +31,7 @@
   />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://doriandevois.github.io/shooting-sports/" />
-  <meta property="og:image" content="./assets/images/social/social-preview-1200x630.jpg" />
+  <meta property="og:image" content="/assets/images/social/social-preview-1200x630.jpg" />
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -34,16 +40,16 @@
     name="twitter:description"
     content="Official website of the Azerbaijan Shooting Federation. Competitions, news, athletes and results."
   />
-  <meta name="twitter:image" content="./assets/images/social/social-preview-1200x630.jpg" />
+  <meta name="twitter:image" content="/assets/images/social/social-preview-1200x630.jpg" />
 
   <!-- FAVICONS -->
   <!-- Класичний .ico для старих браузерів -->
-  <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" type="image/x-icon" />
   <!-- Основний favicon для десктопних браузерів -->
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
   <!-- Apple iOS -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
 
   <!-- Android / Chrome PWA / Дублювання в manifest.json -->
   <!-- <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-chrome-192x192.png" /> -->
@@ -56,10 +62,10 @@
   <meta name="theme-color" content="#0b1c2d" />
 
   <!-- PWA Manifest -->
-  <link rel="manifest" href="./manifest.json" />
-  <script type="module" crossorigin src="./assets/main-BuoWXlWW.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/main-DtID8Qw4.js">
-  <link rel="stylesheet" crossorigin href="./assets/main-CAkeK_d9.css">
+  <link rel="manifest" href="manifest.json" />
+  <script type="module" crossorigin src="/assets/main-DW2chwsS.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/main-yYvGOUT4.js">
+  <link rel="stylesheet" crossorigin href="/assets/main-Bw-UZqpU.css">
 </head>
 
   <body>
@@ -72,7 +78,7 @@
       <!-- Site Logo -->
 <a class="logo page-header__logo" href="/" aria-label="Shooting Sports Home">
   <svg class="logo__image" width="48" height="48">
-    <use href="./assets/images/logo/svg/logo-asf.svg"></use>
+    <use href="assets/images/logo/svg/logo-asf.svg"></use>
   </svg>
   <span class="logo__text">Shooting<br />Sports</span>
 </a>
@@ -90,7 +96,7 @@
     aria-controls="mobile-menu-container"
   >
     <svg class="mobile-menu__toggle-icon" width="32" height="32" aria-hidden="true">
-      <use href="./assets/icons/ui/svg/burger.svg"></use>
+      <use href="assets/icons/ui/svg/burger.svg"></use>
     </svg>
   </button>
 
@@ -101,7 +107,7 @@
       <!-- Site Logo -->
 <a class="logo {=$add-class}" href="/" aria-label="Shooting Sports Home">
   <svg class="logo__image" width="48" height="48">
-    <use href="./assets/images/logo/svg/logo-asf.svg"></use>
+    <use href="assets/images/logo/svg/logo-asf.svg"></use>
   </svg>
   <span class="logo__text">Shooting<br />Sports</span>
 </a>
@@ -110,7 +116,7 @@
       <!-- Mobile Menu Toggle (Close Button) -->
       <button class="js-close-mobile-menu mobile-menu__toggle" type="button" aria-label="Close mobile menu">
         <svg class="mobile-menu__toggle-icon" width="32" height="32" aria-hidden="true">
-          <use href="./assets/icons/ui/svg/close.svg"></use>
+          <use href="assets/icons/ui/svg/close.svg"></use>
         </svg>
       </button>
     </div>
@@ -118,22 +124,22 @@
     <!-- Mobile Menu Navigation -->
     <ul class="mobile-nav">
       <li>
-        <a class="mobile-nav__link" href="/competitions/">Competitions</a>
+        <a class="mobile-nav__link" href="competitions/">Competitions</a>
       </li>
       <li>
-        <a class="mobile-nav__link" href="/disciplines/">Disciplines</a>
+        <a class="mobile-nav__link" href="disciplines/">Disciplines</a>
       </li>
       <li>
-        <a class="mobile-nav__link" href="/athletes/">Athletes</a>
+        <a class="mobile-nav__link" href="athletes/">Athletes</a>
       </li>
       <li>
-        <a class="mobile-nav__link" href="/news/">News</a>
+        <a class="mobile-nav__link" href="news/">News</a>
       </li>
       <li>
-        <a class="mobile-nav__link" href="/gallery/">Gallery</a>
+        <a class="mobile-nav__link" href="gallery/">Gallery</a>
       </li>
       <li>
-        <a class="mobile-nav__link" href="/contacts/">Contacts</a>
+        <a class="mobile-nav__link" href="contacts/">Contacts</a>
       </li>
     </ul>
 
@@ -144,7 +150,7 @@
         <li>
           <a class="mobile-contacts__link mobile-contacts__link--accent" href="tel:+994124937060">
             <svg class="mobile-contacts__icon" width="24" height="24">
-              <use href="./assets/icons/ui/svg/mobile.svg"></use>
+              <use href="assets/icons/ui/svg/mobile.svg"></use>
             </svg>
             <span>(+994) 12 493 70 60</span>
           </a>
@@ -152,7 +158,7 @@
         <li>
           <a class="mobile-contacts__link" href="mailto:info@aze-shooting.org">
             <svg class="mobile-contacts__icon" width="24" height="24">
-              <use href="./assets/icons/ui/svg/email.svg"></use>
+              <use href="assets/icons/ui/svg/email.svg"></use>
             </svg>
             <span>info@aze-shooting.org</span>
           </a>
@@ -180,36 +186,36 @@
       <!-- Site Nav -->
 <ul class="site-nav" aria-label="Main navigation">
   <li class="site-nav__item">
-    <a class="site-nav__link" href="/competitions/">Competitions</a>
+    <a class="site-nav__link" href="competitions/">Competitions</a>
   </li>
   <li class="site-nav__item">
-    <a class="site-nav__link" href="/disciplines/">Disciplines</a>
+    <a class="site-nav__link" href="disciplines/">Disciplines</a>
     <ul class="site-nav__sub-list">
       <li class="site-nav__sub-item">
-        <a class="site-nav__sub-link" href="/disciplines/pistol/">Pistol</a>
+        <a class="site-nav__sub-link" href="disciplines/pistol/">Pistol</a>
       </li>
       <li class="site-nav__sub-item">
-        <a class="site-nav__sub-link" href="/disciplines/rifle/">Rifle</a>
+        <a class="site-nav__sub-link" href="disciplines/rifle/">Rifle</a>
       </li>
       <li class="site-nav__sub-item">
-        <a class="site-nav__sub-link" href="/disciplines/trap/">Trap</a>
+        <a class="site-nav__sub-link" href="disciplines/trap/">Trap</a>
       </li>
       <li class="site-nav__sub-item">
-        <a class="site-nav__sub-link" href="/disciplines/skeet/">Skeet</a>
+        <a class="site-nav__sub-link" href="disciplines/skeet/">Skeet</a>
       </li>
     </ul>
   </li>
   <li class="site-nav__item">
-    <a class="site-nav__link" href="/athletes/">Athletes</a>
+    <a class="site-nav__link" href="athletes/">Athletes</a>
   </li>
   <li class="site-nav__item">
-    <a class="site-nav__link" href="/news/">News</a>
+    <a class="site-nav__link" href="news/">News</a>
   </li>
   <li class="site-nav__item">
-    <a class="site-nav__link" href="/gallery/">Gallery</a>
+    <a class="site-nav__link" href="gallery/">Gallery</a>
   </li>
   <li class="site-nav__item">
-    <a class="site-nav__link" href="/contacts/">Contacts</a>
+    <a class="site-nav__link" href="contacts/">Contacts</a>
   </li>
 </ul>
 
@@ -219,7 +225,7 @@
   <li>
     <a class="site-contacts__link" href="tel:+994124937060">
       <svg class="site-contacts__icon" width="16" height="16">
-        <use href="./assets/icons/ui/svg/mobile.svg"></use>
+        <use href="assets/icons/ui/svg/mobile.svg"></use>
       </svg>
       <span>(+994) 12 493 70 60</span>
     </a>
@@ -227,7 +233,7 @@
   <li>
     <a class="site-contacts__link" href="mailto:info@aze-shooting.org">
       <svg class="site-contacts__icon" width="16" height="16">
-        <use href="./assets/icons/ui/svg/email.svg"></use>
+        <use href="assets/icons/ui/svg/email.svg"></use>
       </svg>
       <span>info@aze-shooting.org</span>
     </a>
